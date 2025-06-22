@@ -1,0 +1,91 @@
+*
+{
+    padding: 0%;
+    margin: 0%
+}
+header{
+    background-image:url(index1.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+.title{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+  transform: translate(-50%,-50%);
+   /* border: double white ;*/
+    font-style: italic;
+}
+.title h1{
+    color: darkblue;
+    font-size: 55px;
+    background-color: #ffffff96;
+}
+.para{
+    font-size: large;
+    color: #fff;
+    font-style: oblique;
+  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    height: 30px;
+  }
+  
+  nav ul {
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+  
+  nav ul li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li ul {
+    display: none;
+  }
+  
+  nav ul li a {
+    width: 150px;
+    height: 30px;
+    height: 30px;
+    font-size: larger;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  background-color:transparent;
+  color:rgb(255, 255, 255) ;
+}
+
+nav ul li a:hover {
+  background-color:rgba(30, 30, 73, 0.945);
+}
+
+nav ul li:hover ul {
+  position: absolute;
+  top: 30px;
+  display: block;
+  width: 150px;
+  background-color:rgba(88, 88, 151, 0.726);
+}
+
+nav ul li:hover ul li {
+  display: block;
+}
+
+
+
+
